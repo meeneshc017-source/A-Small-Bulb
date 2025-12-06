@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.bulb-container{
+       height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+     box-shadow: 10px 10px 20px rgb(150, 150, 54);
+    margin: 5rem;
+}
+.bulb{
+   
+    border-radius: 50%;
+    background: #f2ff00;
+}
