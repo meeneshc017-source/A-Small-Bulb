@@ -18,3 +18,13 @@ html, body {
     background: #f2ff00;
 }
 
+button{
+    height: auto;
+    width: auto;
+    font-size: 3rem;
+    border: none;
+    border-radius: 20px;
+    margin-left: 8rem;
+    padding: 1rem;
+    background: #eaff00;
+}
