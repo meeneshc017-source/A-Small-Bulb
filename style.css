@@ -37,9 +37,21 @@ button{
     height: auto;
     width: 5em;
     font-size: 3rem;
+    text-shadow: 2px 3px 4px red;
+    color: rgb(129, 249, 55);
     border: none;
     border-radius: 20px;
     padding: 1rem;
     margin-bottom: 1rem;
-    background: #eaff00;
+    background: #c6c8b1;
+    box-shadow:  2px 3px 4px rgb(133, 155, 82);
 }
+
+button:active{
+    transform: scale(0.9) ;
+}
+
+button:hover{
+    background: #efba0c;
+}
+
