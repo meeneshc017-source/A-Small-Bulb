@@ -1,17 +1,18 @@
  
  let bulb=document.querySelector("#bulb")
-
+ let startBtn=document.querySelector("#startbtn")
+ let offBtn=document.querySelector("#offbtn")
  const bulbb=() =>{
      setInterval(()=>{
-     bulb.classList.toggle("bulb")
-},200)
+         bulb.classList.toggle("bulb")
+     },400)
  }
 
-let startBtn=document.querySelector("#startbtn")
+
 startBtn.addEventListener("click",()=>{
     bulbb()
 })
 
-startBtn.removeEventListener("click",()=>{
+offBtn.removeEventListener("click",()=>{
     bulbb()
 });
