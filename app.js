@@ -7,11 +7,11 @@
 },200)
  }
 
-let btn=document.querySelector("#btn")
-btn.addEventListener("click",()=>{
+let startBtn=document.querySelector("#startbtn")
+startBtn.addEventListener("click",()=>{
     bulbb()
 })
 
-btn.removeEventListener("click",()=>{
+startBtn.removeEventListener("click",()=>{
     bulbb()
 });
