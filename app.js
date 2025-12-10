@@ -9,10 +9,19 @@
  }
 
 
-startBtn.addEventListener("click",()=>{
-    bulbb()
+startBtn.addEventListener("click", ()=> {
+   bulbb()
 })
+ 
 
-offBtn.removeEventListener("click",()=>{
-    bulbb()
+
+// offBtn.removeEventListener("click",()=>{
+//    bulbb()
+// });
+offBtn.addEventListener("click", () =>{
+      startBtn.removeEventListener("click",()=> {
+        bulbb()
+})   
 });
+      
+    
