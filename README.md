@@ -27,9 +27,9 @@ A simple JavaScript mini-project where a bulb blinks repeatedly using setInterva
 
 - Clicking Start starts the blinking effect.
 
-- Clicking Off removes the event listener from the Start button (though this method can be improved — see notes below).
+- Clicking Off stops the blinking effect.
 
-
+  
 ## 📂 Technologies Used
 
 - HTML
