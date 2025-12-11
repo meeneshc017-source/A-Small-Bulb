@@ -1,8 +1,8 @@
-🔆 Blinking Bulb Project
+# 🔆 Blinking Bulb Project
 
 A simple JavaScript mini-project where a bulb blinks repeatedly using setInterval(), and you can start/stop the blinking using buttons.
 
-🚀 Features
+## 🚀 Features
 
 Bulb blinks by toggling a CSS class
 
@@ -21,7 +21,7 @@ setInterval()
 Event listeners
 
 
-🧠 How It Works
+## 🧠 How It Works
 
 The bulbb() function uses setInterval() to toggle the "bulb" class every 400ms.
 
@@ -29,12 +29,12 @@ Clicking Start starts the blinking effect.
 
 Clicking Off removes the event listener from the Start button (though this method can be improved — see notes below).
 
-⚠️ Important Note
+## ⚠️ Important Note
 
 The current Off button does NOT stop the interval — it only removes the event listener incorrectly.
  (i will improve this later.)
 
-📂 Technologies Used
+## 📂 Technologies Used
 
 HTML
 
@@ -42,7 +42,7 @@ CSS
 
 JavaScript (DOM, Events)
 
-⭐ Future Improvements
+## ⭐ Future Improvements
 
 Add actual stop blinking logic using clearInterval()
 
