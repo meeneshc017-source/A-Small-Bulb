@@ -29,10 +29,6 @@ A simple JavaScript mini-project where a bulb blinks repeatedly using setInterva
 
 - Clicking Off removes the event listener from the Start button (though this method can be improved — see notes below).
 
-## ⚠️ Important Note
-
-The current Off button does NOT stop the interval — it only removes the event listener incorrectly.
- (i will improve this later.)
 
 ## 📂 Technologies Used
 
@@ -43,8 +39,6 @@ The current Off button does NOT stop the interval — it only removes the event 
 - JavaScript (DOM, Events)
 
 ## ⭐ Future Improvements
-
-- Add actual stop blinking logic using clearInterval()
 
 - Add smooth glow animations
 
